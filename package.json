@@ -1,0 +1,40 @@
+{
+  "name": "hayalai-mcp",
+  "version": "0.1.0",
+  "description": "HayalAI prompt kütüphanesini MCP üzerinden arama ve getirme sunucusu",
+  "type": "module",
+  "main": "sunucu.js",
+  "bin": {
+    "hayalai-mcp": "sunucu.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sercanesiktas/hayalai-mcp.git"
+  },
+  "homepage": "https://github.com/sercanesiktas/hayalai-mcp#readme",
+  "keywords": [
+    "mcp",
+    "prompt",
+    "turkce",
+    "hayalai",
+    "model-context-protocol"
+  ],
+  "author": "Sercan Eşiktaş",
+  "files": [
+    "sunucu.js",
+    "veri.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
